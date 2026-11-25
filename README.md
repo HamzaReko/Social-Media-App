@@ -1,12 +1,54 @@
-# React + Vite
+# Social Media App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A front-end social media app ("mini Facebook") built with React and Material UI. It includes a posts feed, post creation, a collapsible sidebar, and a dark/light theme.
 
-Currently, two official plugins are available:
+**Live demo:** https://hamzareko.github.io/Social-Media-App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- TODO: add a screenshot or short GIF of the feed here -->
+<!-- ![Feed](docs/screenshot-feed.png) -->
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Posts feed with a clean, card-based layout
+- Create a new post from a floating action button
+- Collapsible navigation drawer / sidebar
+- Dark and light mode with a custom MUI theme; the chosen theme persists in `localStorage`
+- Responsive layout built with Material UI components
+- Deployed to GitHub Pages
+
+## Tech Stack
+
+- React 19
+- Material UI (MUI) v7 with custom design tokens
+- React Router v7
+- Vite
+- gh-pages for deployment
+
+## Getting Started
+
+### Prerequisites
+- Node.js 18+ and npm
+
+### Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+The app starts on the Vite dev server (default `http://localhost:5173`).
+
+### Build and deploy
+
+```bash
+npm run build     # production build to dist/
+npm run deploy    # publishes dist/ to GitHub Pages
+```
+
+## Notes
+
+This is a front-end-only project: the feed and posts are rendered on the client. A natural next step is connecting it to a backend API for real accounts, posts, and likes.
+
+## Author
+
+**Hamza Ismail** - [GitHub](https://github.com/HamzaReko)
