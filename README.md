@@ -4,8 +4,7 @@ A front-end social media app ("mini Facebook") built with React and Material UI.
 
 **Live demo:** https://hamzareko.github.io/Social-Media-App
 
-<!-- TODO: add a screenshot or short GIF of the feed here -->
-<!-- ![Feed](docs/screenshot-feed.png) -->
+![Feed](docs/5-screenshot-feed.png)
 
 ## Features
 
